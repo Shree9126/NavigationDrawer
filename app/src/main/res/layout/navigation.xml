@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vProfile"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/item_margin_navigation"
+            android:gravity="center_vertical"
+            android:padding="@dimen/item_margin_navigation"
+            android:singleLine="true"
+            android:text="P R O F I L E"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vEnquiry"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/item_margin_navigation"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:padding="@dimen/item_margin_navigation"
+            android:text="E N Q U I R Y"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vOrders"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/item_margin_navigation"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:padding="@dimen/item_margin_navigation"
+            android:text="O R D E R S"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vPackages"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/item_margin_navigation"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:padding="@dimen/item_margin_navigation"
+            android:text="P A C K A G E S"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
